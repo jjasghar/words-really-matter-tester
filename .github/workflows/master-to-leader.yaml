@@ -10,8 +10,3 @@ jobs:
         uses: jjasghar/actions-words-really-matter@v1.0.1
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
-        with:
-          commit-message: changing master to leader and more
-          title: Changing Master to Leader and more
-          body: This is changed Master to Leader, and Slave to Follower
-          branch: master-to-leader
