@@ -10,3 +10,5 @@ jobs:
         uses: jjasghar/actions-words-really-matter@v1.0.1
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
+        with:
+          ref: ${{ github.head_ref }}
